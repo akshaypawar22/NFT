@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="stylesheetprac2.css">
+    <script src="wtprac2.js"></script>
+</head>
+
+<body style="background-image: url(a4.jpg);">
+    <input type="button" id="back" value="BACK" onclick="document.location='index.html'">
+    <main id="mainbody">
+        <input type="submit" id="login" value="LOG IN" onclick="document.location='login.html'">
+        <input type="submit" id="signup" value="SIGN UP" onclick="document.location='signup.html'">
+        <form action="connect.php" method="post">
+            <div>
+                <input type="text" id="fname" placeholder="Enter First_Name" name="firstName">
+            </div>
+            <br>
+            <div>
+                <input type="text" id="mname" placeholder="Enter Middle_Name" name="middleName">
+            </div>
+            <br>
+            <div>
+                <input type="text" id="lname" placeholder="Enter last_Name" name="lastName">
+            </div>
+            <br>
+            <div>
+                <input type="email" id="mail" placeholder="Enter Mail_id" name="Email">
+            </div>
+            <br>
+            <div>
+                <input type="password" id="pass" placeholder="Enter Password" name="Password">
+            </div>
+            <br>
+            <div>
+                <input type="text" id="cpass" placeholder="Enter Confirm_Password" name="ConfirmPassword">
+            </div>
+            <br>
+            <input type="submit" id="submit" value="Submit">
+        </form>
+    </main>
+
+</body>
+
+</html>

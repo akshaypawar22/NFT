@@ -1,0 +1,223 @@
+.basic {
+  position: absolute;
+  width: 1290px;
+  height: 610px;
+  left: 0px;
+  top: 2px;
+  background-image: url(f4.png);
+}
+
+.blur {
+  position: absolute;
+  width: 1290px;
+  left: 0px;
+  height: 610px;
+  top: 2px;
+  background: rgba(65, 65, 65, 0.247);
+  backdrop-filter: blur(8px);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+#mainbody {
+  position: absolute;
+  width: 1290px;
+  height: 550px;
+  left: 0px;
+  top: 615px;
+  /* background-color: rgb(140, 15, 172); */
+  background-image: linear-gradient(rgb(0, 255, 242), rgb(255, 1, 221));
+}
+
+ul {
+  position: absolute;
+  width: 600px;
+  right: 850px;
+  top: 15px;
+  list-style-type: none;
+  margin: 15px;
+  padding: 35px;
+  overflow: hidden;
+  background: rgba(170, 170, 170, 0.247);
+  backdrop-filter: blur(8px);
+  border-radius: 100px;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+#imphead {
+  position: absolute;
+  top: 120px;
+  right: 610px;
+  color: rgb(0, 255, 242);
+  font-size: 37px;
+}
+#parahead {
+  position: absolute;
+  top: 310px;
+  right: 705px;
+  color: white;
+}
+#marketplacemain {
+  position: absolute;
+  top: 380px;
+  right: 1056px;
+  background: rgba(170, 170, 170, 0);
+  backdrop-filter: blur(8px);
+  border: 5px solid rgb(0, 255, 21);
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+input#marketplacemain:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 5px solid rgb(255, 3, 3);
+}
+#icon1 {
+  position: absolute;
+  top: 22px;
+  right: 180px;
+  background: rgba(170, 170, 170, 0);
+  backdrop-filter: blur(8px);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+#icon2 {
+  position: absolute;
+  top: 22px;
+  right: 70px;
+  background: rgba(170, 170, 170, 0);
+  backdrop-filter: blur(8px);
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 50px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+input#icon1:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid rgb(255, 255, 255);
+}
+input#icon2:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border: 1px solid rgb(255, 255, 255);
+}
+#footer {
+  position: absolute;
+  background-color: rgb(255, 1, 221);
+  width: 1290px;
+  height: 200px;
+  left: 0px;
+  top: 1165px;
+}
+#main1 {
+  position: absolute;
+  width: 250px;
+  right: 1000px;
+  height: 350px;
+  top: 150px;
+  border: 1px solid rgba(180, 180, 180, 0.247);
+  border-radius: 5px;
+  background: rgba(252, 252, 252, 0.212);
+  backdrop-filter: blur(30px);
+}
+#main2 {
+  position: absolute;
+  width: 250px;
+  right: 685px;
+  height: 350px;
+  top: 150px;
+  border: 1px solid rgba(180, 180, 180, 0.247);
+  border-radius: 5px;
+  background: rgba(252, 252, 252, 0.212);
+  backdrop-filter: blur(30px);
+}
+#main3 {
+  position: absolute;
+  width: 250px;
+  right: 370px;
+  height: 350px;
+  top: 150px;
+  border: 1px solid rgba(180, 180, 180, 0.247);
+  border-radius: 5px;
+  background: rgba(252, 252, 252, 0.212);
+  backdrop-filter: blur(30px);
+}
+#main4 {
+  position: absolute;
+  width: 250px;
+  right: 65px;
+  height: 350px;
+  top: 150px;
+  border: 1px solid rgba(180, 180, 180, 0.247);
+  border-radius: 5px;
+  background: rgba(252, 252, 252, 0.212);
+  backdrop-filter: blur(30px);
+}
+#logo {
+  position: absolute;
+  width: 130px;
+  top: 1px;
+  left: 50px;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+#mtext {
+  position: absolute;
+  font-size: 45px;
+  left: 460px;
+  top: -22px;
+}
+img {
+  position: absolute;
+  width: 150px;
+  top: -55px;
+  left: 50px;
+}
+.logohead {
+  color: white;
+  position: absolute;
+  width: 150px;
+  top: 50px;
+  left: 50px;
+  font-size: 45px;
+}
+#bc {
+  position: absolute;
+  left: 18px;
+}
+.logotext {
+  position: absolute;
+  width: 150px;
+  top: 150px;
+  left: -105px;
+  font-size: 14px;
+}
+.footintro {
+  position: absolute;
+  height: 50px;
+  left: 500px;
+  top: 120px;
+  color: white;
+}
+#mml {
+  position: absolute;
+  width: 570px;
+  top: 140px;
+  left: 770px;
+  transform: rotate(-10deg);
+}

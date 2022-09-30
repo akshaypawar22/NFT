@@ -1,0 +1,120 @@
+#div1{
+    position: absolute;
+    width: 450px;
+    right: 30px;
+    height: 550px;
+    top: 30px;
+    border: 1px solid rgb(255, 0, 0);
+    border-radius: 1px;
+    background-image: linear-gradient(rgb(255, 0, 0), rgb(230, 255, 1));
+    backdrop-filter: blur(30px);
+}
+#card{
+    position: absolute;
+    width: 370px;
+    right: 40px;
+    height: 220px;
+    top: 30px;
+    border: 1px solid rgba(148, 148, 148, 0.596);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.418);
+    backdrop-filter: blur(30px);
+}
+#emptyCart{
+    position: absolute;
+    width: 200px;
+    left: 300px;
+    top: 140px;
+}
+#carttext{
+    position: absolute;
+    left: 260px;
+    top: 310px;
+    font-size: 30px;
+}
+#cartpar{
+    position: absolute;
+    left: 260px;
+    top: 370px;
+    font-size: 15px;
+}
+#back{
+    position: absolute;
+    top: 20px;
+    left: 20px;;
+    background: rgba(170, 170, 170, 0);
+    backdrop-filter: blur(8px);
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 50px;
+    color: rgb(255, 0, 0);
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+input#back:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 3px solid rgb(0, 0, 0)
+}
+#ShopNow{
+    position: absolute;
+    top: 420px;
+    left: 358px;;
+    background: rgb(255, 255, 255);
+    backdrop-filter: blur(8px);
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 0px;
+    color: rgb(255, 0, 0);
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+input#ShopNow:hover{
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 3px solid rgb(255, 255, 255)
+}
+#amount{
+    position: absolute;
+    right: 160px;
+    top: -13px;
+    font-size: 70px;
+    color: azure;
+}
+#reward{
+    position: absolute;
+    right: 260px;
+    top: -10px;
+    font-size: 25px;
+    color: azure;
+}
+#name{
+    position: absolute;
+    right: 180px;
+    top: 140px;
+    font-size: 25px;
+    color: azure;
+}
+#expiry{
+    position: absolute;
+    right: 40px;
+    top: 148px;
+    font-size: 22px;
+    color: azure;
+}
+#qrcode{
+    position: absolute;
+    width: 170px;
+    top: 340px;
+    right: 134px;
+}
+#getreward{
+    position: absolute;
+    top: 250px;
+    right: 80px;
+    font-size: 30px;
+}
